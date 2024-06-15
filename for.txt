@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de ejemplo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="contenedor">
+    <h1>Registrarse</h1>
+    <form action="Catalogo.html" method="post">
+        <Fieldset>
+            <LEgend><h3>Información de cliente</h3></LEgend> 
+        <label for="">NOMBRE: </label>
+        <input type="text" name="nom" id="nom" required> <br> <br>
+
+        <label for="">APELLIDO:</label>
+        <input type="text" name="ape" id="ape" required> <br><br>
+
+        
+            <label for="">NUMERO DE DOCUMENTO:</label>
+            <input type="text" name="doc" id="" required> <br><br>
+
+
+
+        <label for="">TELEFONO:</label> 
+        <input type="text" name="tl" id="tl" required> <BR></BR>
+
+        <label for="">CORREO:</label> 
+        <input type="text" name="co" id="co">  <br><br>
+
+
+       
+    </Fieldset> <br> <br>
+       <input type="submit" value="Enviar">
+    </form>
+    </div>

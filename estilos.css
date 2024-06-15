@@ -1,0 +1,173 @@
+body{
+    background-color: rgb(245, 255, 198);
+   
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(250, 176, 57);
+    text-align: center;
+    font-size: 50px;
+}
+.logo{
+    background-image: url(LOGO\ DE\ SABORAN.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: solid transparent ;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 50px;
+    border-radius: 50%;
+    margin-top: -130px;
+     }
+    
+
+fieldset{
+    background-color: white;
+    background-image: url();
+    background-image: url(BlaNCO.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h2{
+    position: relative;
+    color: rgb(76, 137, 122);
+    left: 350px;
+}
+
+.hey2s{
+    margin-left: 240px; 
+    color: beige;
+
+    top: 20PX;
+
+    left: 50px;
+    position: relative;
+ }
+
+ .hey2{
+  margin-left: 240px; 
+  color: beige;
+
+  top: 20PX;
+
+  right: 550px;
+  position: relative;
+   }
+
+   .hey3{
+    margin-left: 240px; 
+    color: beige;
+  
+    top: 20PX;
+  
+    right: 550px;
+    position: relative;
+   }
+
+
+
+ button{
+    background-color: rgb(91, 163, 149);
+    border-radius: 30px 50px 30px 50px;
+    transition: 3s;
+    width: 200px;                                 
+    text-align: center;
+    text-decoration: none;
+    border: 20px 10px 20px 10px;
+    font-size: 20px;
+    color: beige;
+    position: absolute;
+    left: 550px;
+    
+}
+
+button:hover {
+    background-color: rgb(234, 158, 70);
+    color: beige;
+    border-radius: 20px 20px 20px 20px;
+    transition: 1s;
+    width: 200px;
+    text-align: center;
+    
+     }
+
+
+     /*Formulario*/
+     #contenedor {
+        background: #cce4f8;
+        margin: 1em auto;
+        padding: 1em;
+        width: 768px;
+        text-align: center;
+        position: relative;
+        border: #1d6fb3;
+      }
+
+      input[type=submit]{
+        background-color: rgb(91, 163, 149);
+        border-radius: 30px 50px 30px 50px;
+        transition: 3s;
+        width: 200px;                                 
+        text-align: center;
+        text-decoration: none;
+        border: 20px 10px 20px 10px;
+        font-size: 20px;
+        color: beige;
+      }
+
+      input[type=button]{
+        background-color: rgb(91, 163, 149);
+        border-radius: 30px 50px 30px 50px;
+        transition: 3s;
+        width: 200px;                                 
+        text-align: center;
+        text-decoration: none;
+        border: 20px 10px 20px 10px;
+        font-size: 20px;
+        color: beige;
+      }
+
+      
+      h3{
+        font-size: 25px;
+        color: rgb(69, 103, 88);
+      }
+      form{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border: #1d6fb3;
+      }
+      li{
+        list-style: none;
+      }
+      span{
+        font-weight: bold;
+
+      }
+
+      .intro{
+        background-size: 100% 100%;
+        background-color: rgb(209, 219, 224);
+        border: solid rgb(255, 159, 49) ;
+        width: 1100px;
+        height: 100px;
+        position: absolute;
+        left: 100px;
+        text-align: center;
+        color: rgb(43, 56, 69);
+        top: 450px; }
+
+        .conta{
+          background-size: 100% 100%;
+          background-color: rgb(209, 219, 224);
+          border: solid rgb(255, 159, 49) ;
+          width: 500px;
+          height: 200px;
+          position: absolute;
+          left: 500px;
+          text-align: center;
+          color: rgb(43, 56, 69);
+          top: 200px; }
+  
+
+        

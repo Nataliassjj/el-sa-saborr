@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario con mensaje</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script>
+    function mostrarMensaje() {
+      alert('¡Gracias por enviar el formulario!');
+    }
+  </script>
+ <div id="contenedor">
+
+ 
+</head> <br><br><br><br>
+
+<body>
+    
+
+
+<form action="Catalogo.html" onsubmit="mostrarMensaje()" method="post">
+    <h1>Registro de productos</h1>
+    <fieldset>
+                <legend><h3>Información de cliente</h3></legend>
+                <label for="nom">NOMBRE:</label>
+                <input type="text" name="nom" id="nom" required><br><br>
+
+                <label for="ape">APELLIDO:</label>
+                <input type="text" name="ape" id="ape" required><br><br>
+
+                <label for="doc">NUMERO DE DOCUMENTO:</label>
+                <input type="text" name="doc" id="doc" required><br><br>
+
+                <label for="tl">TELEFONO:</label>
+                <input type="text" name="tl" id="tl" required><br><br>
+
+                <label for="co">CORREO:</label>
+                <input type="text" name="co" id="co"><br><br>
+            </fieldset>
+            <br> <input type="submit" value="Enviar">
+           
+           
+        </form>
+    </div>
+
+   
+
+
+</body>
+</html>
